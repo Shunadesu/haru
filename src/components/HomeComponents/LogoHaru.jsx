@@ -9,7 +9,7 @@ const LogoHaru = () => {
   return (
     <Link
       to={path.HOME}
-      className="w-[100px] h-[100px] rounded-full overflow-hidden border border-mid3 hover:border-mid4"
+      className="w-[70px] h-[70px] rounded-full overflow-hidden border border-mid3 hover:border-mid4 justify-self-center"
     >
       <img
         src={LogoHarucafe}

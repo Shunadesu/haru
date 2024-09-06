@@ -1,22 +1,15 @@
 import React from "react";
-import { LogoHaru, HeaderContent } from "../components";
-import icons from "../ulities/icons/icons";
+import { LogoHaru, HeaderContent, Nav, HeaderTitle } from "../components";
 const Header = () => {
-  const { BsInstagram } = icons;
   return (
-    <header className="w-full flex justify-between items-center mt-4">
-      <a
-        target="https://www.instagram.com/cafeharu_harucraft"
-        href="https://www.instagram.com/cafeharu_harucraft"
-        className="text-[18px] flex gap-2 items-center gradient-text hover:bg-gradient-to-r from-start via-mid2 to-mid4 "
-      >
-        <BsInstagram className="text-mid4" />
-        Ceramic and Art Home
-      </a>
+    <header className="w-full max-w-[1200px] flex flex-col gap-2">
+      <div className="w-full grid grid-cols-3 items-center mt-4 pb-4 border-b border-[#f5f5f5]">
+        <HeaderTitle/>
+        <LogoHaru />
+        <HeaderContent />
+      </div>
 
-      <LogoHaru />
-
-      <HeaderContent />
+      <Nav />
     </header>
   );
 };

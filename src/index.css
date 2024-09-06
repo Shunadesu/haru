@@ -2,15 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.font-baskervville{
+  font-family: "Baskervville SC", serif;
+}
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
-.font-montserrat {
-  font-family: "Montserrat", sans-serif;
 }
 
 .gradient-text {
@@ -18,3 +22,5 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+

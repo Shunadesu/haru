@@ -8,23 +8,23 @@ const navdata = [
   },
   {
     id: 2,
-    text: "Menu",
-    path: path.MENU,
+    text: "Duyu",
+    path: path.DUYU,
   },
   {
     id: 3,
-    text: "Address",
-    path: path.ADDRESS,
-  },
-  {
-    id: 4,
-    text: "Blog",
+    text: "Blogs",
     path: path.BLOGS,
   },
   {
+    id: 4,
+    text: "Foods",
+    path: path.FOODS,
+  },
+  {
     id: 5,
-    text: "Review",
-    path: path.REVIEW,
+    text: "Drink",
+    path: path.DRINK,
   },
 ];
 
